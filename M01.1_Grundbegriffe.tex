@@ -954,7 +954,7 @@ Wir wissen:
 \item
 Länge der Zelle \(\sim\)\SI{1}{\micro \meter} = \SI{1e-6}{\meter} in jede Richtung
 \item
-Konzentration des Enzyms: \SI{1}{\nano\mole\per\liter} = \SI{1e-9}{\mole\per\liter}
+Konzentration des Enzyms: \SI{10}{\nano\mole\per\liter} = \SI{1e-8}{\mole\per\liter}
 \item
 Anzahl Liter in einem Kubikmeter: \SI{1e3}{\liter\per\cubic\meter}
 \item
@@ -969,25 +969,26 @@ Anzahl Moleküle in einem Mol: \SI{6.022e23}{\per\mole} \(\sim\) \SI{1e24}{\per\
 \frametitle{Rechnen mit Logarithmen - Beispiel} 
 
 \[ 
-X\approx (10^{-6})^3 \text{m}^3 10^{-9}\frac{\text{mol}}{\text{L}} 10^3 \frac{\text{L}}{\text{m}^3} 10^{24} \frac{\,}{\text{mol}} 
+X\approx (10^{-6})^3 \text{m}^3 10^{-8}\frac{\text{mol}}{\text{L}} 10^3 \frac{\text{L}}{\text{m}^3} 10^{24} \frac{\,}{\text{mol}} 
 \]
 
 \pause
 
 \[
-X\approx (10^{-6})^3  10^{-9} 10^3  10^{24} 
+X\approx (10^{-6})^3  10^{-8} 10^3  10^{24} 
+\]
+
+
+\[
+\lg{X}\approx \lg{(10^{-6})^3  10^{-8} 10^3  10^{24} }  
 \]
 
 \[
-\lg{X}\approx \lg{(10^{-6})^3  10^{-9} 10^3  10^{24} }  
+\lg{X}\approx 3\lg{10^{-6}} + \lg{10^{-8}} +\lg{10^{3}}+ \lg{10^{24}}   
 \]
 
 \[
-\lg{X}\approx 3\lg{10^{-6}} + \lg{10^{-9}} +\lg{10^{3}}+ \lg{10^{24}}   
-\]
-
-\[
-\lg{X}\approx  3\times(-6) - 9  + 3 + 24 = 1 
+\lg{X}\approx  3\times(-6) - 8  + 3 + 24 = 1 
 \]
 
 \[
