@@ -57,6 +57,24 @@ $\,$\\[6cm]
 
 \end{frame} 
 }
+
+
+\begin{frame}
+\frametitle{Herzlich Willkommen an der MSB}
+
+
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Was kommt auf Sie zu?}
+
+\begin{center}
+    \includegraphics[width=\textwidth]{physik_module.png}
+\end{center}
+
+\end{frame}
  
 
 %% Hook
@@ -403,9 +421,30 @@ Proton                  & \SI{0,000 000 000 000 001 7}{m}& \SI{1,7}{\femto\meter
 
 
 
-\begin{frame}
-\makebox[\linewidth]{\includegraphics[page=14,width=\textwidth]{Walter.pdf}}
-\end{frame}
+% \begin{frame}{Zusammengesetzte Einheiten}
+
+% \begin{block}{Aus einer SI-Einheit - Beispiele}
+% \begin{itemize}
+%     \item 
+% Fläche (A) in m$^2$
+% \item
+% Volumen (V) in m$^3$
+% \item
+% Frequenz (f) in s$^{-1}$ (Auch: Hertz, $1\,\text{Hz} =  1\,\text{s}^{-1}$
+% \end{itemize}
+    
+% \end{block}
+
+
+% \begin{block}{Aus mehreren SI-Einheiten - Beispiele}
+% \begin{itemize}
+%     \item 
+% \end{itemize}
+    
+% \end{block}
+
+
+% \end{frame}
 
 
 
@@ -949,64 +988,48 @@ Aber warum????
 Weil Logarithmen das Rechnen einfacher machen!
 
 Um Zahlen zu multiplizieren, muss man nur die Logarithmen addieren.  \\
-Um Exponentiale zu berechnen, muss man nur die Logarithmen multiplizieren.
-
-
-\end{frame}
-
-\begin{frame}
-
-\frametitle{Rechnen mit Logarithmen - Beispiel} 
-
-Wie viele Moleküle eines bestimmten Enzyms sind in einem Bakterium vorhanden? 
-
-Wir wissen: 
-
-\begin{itemize}
-\item
-Länge der Zelle \(\sim\)\SI{1}{\micro \meter} = \SI{1e-6}{\meter} in jede Richtung
-\item
-Konzentration des Enzyms: \SI{10}{\nano\mole\per\liter} = \SI{1e-8}{\mole\per\liter}
-\item
-Anzahl Liter in einem Kubikmeter: \SI{1e3}{\liter\per\cubic\meter}
-\item
-Anzahl Moleküle in einem Mol: \SI{6.022e23}{\per\mole} \(\sim\) \SI{1e24}{\per\mole}
-\end{itemize}
-
-\end{frame}
-
-
-\begin{frame}
-
-\frametitle{Rechnen mit Logarithmen - Beispiel} 
-
-\[ 
-X\approx (10^{-6})^3 \text{m}^3 10^{-8}\frac{\text{mol}}{\text{L}} 10^3 \frac{\text{L}}{\text{m}^3} 10^{24} \frac{\,}{\text{mol}} 
-\]
+Um Exponentiale zu berechnen, muss man nur die Logarithmen multiplizieren. \\
 
 \pause
 
-\[
-X\approx (10^{-6})^3  10^{-8} 10^3  10^{24} 
-\]
+Und: Weil Logarithmen oft "natürlich" vorkommen.
+
+\end{frame}
+
+\begin{frame}
+
+\frametitle{Beispiel: Wahrnehmung}
+
+Ob wir einen Unterschied in der Reizstärke wahrnehmen können, hängt oft davon ab, wie stark der Reiz schon ist (Mehr dazu im 4. Semester Physio!)
 
 
-\[
-\lg{X}\approx \lg{(10^{-6})^3  10^{-8} 10^3  10^{24} }  
-\]
 
-\[
-\lg{X}\approx 3\lg{10^{-6}} + \lg{10^{-8}} +\lg{10^{3}}+ \lg{10^{24}}   
-\]
 
-\[
-\lg{X}\approx  3\times(-6) - 8  + 3 + 24 = 1 
-\]
+\begin{columns}[c]
+\begin{column}{5cm}
 
-\[
-\rightarrow X\approx 10 
-\]
+\begin{center}
+    \includegraphics[width=\textwidth]{priscilla-du-preez-CoqJGsFVJtM-unsplash.jpg}
+        
+\end{center}
 
+    
+\end{column}
+\pause
+\begin{column}{5cm}
+\begin{center}
+
+\includegraphics[width=\textwidth]{liuba-bilyk-wU_TbWqdPJI-unsplash.jpg}
+\end{center}
+
+    
+\end{column}
+    
+\end{columns}
+
+\begin{center}
+    
+\end{center}
 
 
 
@@ -1014,7 +1037,17 @@ X\approx (10^{-6})^3  10^{-8} 10^3  10^{24}
 \end{frame}
 
 
+\begin{frame}
 
+\frametitle{Beispiel: Wahrnehmung}
+
+\begin{center}
+    \includegraphics<1>[width=0.8\textwidth]{weber_fechner.png}
+    \includegraphics<2>[width=0.8\textwidth]{weber_fechner_log_scale.png}
+
+\end{center}
+
+\end{frame}
 
 %% Vektoren
 
@@ -1173,6 +1206,10 @@ Diese Vorlesung verwendet teilweise Materialien (Folien und Bilder) einer frühe
  
 \begin{itemize}
 
+\item
+\item
+Ausgestreckte Hand mit Apfel. Photo by \href{https://unsplash.com/@priscilladupreez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText}{Priscilla Du Preez} on \href{https://unsplash.com/s/photos/apple?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText}{Unsplash}
+
 
 \item
  68 - 95 - 99.7 Regel. By M. W. Toews - Own work, based (in concept) on figure by Jeremy Kemp, on 2005-02-09, CC BY 2.5, \url{https://commons.wikimedia.org/w/index.php?curid=1903871}, via Wikimedia Commons
@@ -1194,6 +1231,10 @@ Ergebnisse beim Würfeln. Meine eigene Arbeit, CC-BY-SA 4.0, 2021.
 \item
 
 Formeln und Diagramme mit Giraffen. Eigene Arbeit, 2022. CC-BY-SA 4.0.
+
+\item 
+Frau mit großem Einkaufskorb. Photo by \href{https://unsplash.com/@ibilyk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText}{Liuba Bilyk} on \href{https://unsplash.com/s/photos/carrying-groceries?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText}{Unsplash}
+
 
 \item
 Frustrierter und verwirrter Mensch. Photo by \href{https://unsplash.com/@officestock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText}{Sebastian Herrmann} on \href{https://unsplash.com/s/photos/frustration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText}{Unsplash}
@@ -1222,6 +1263,8 @@ Luftballons mit frohen und traurigen Smileys. Photo by \href{https://unsplash.co
 Screenshot eines Artikels über einen Asteroiden-Einschlag. Daily Mail Online vom 14.3.2022.
 \item
 Studentin präsentiert Daten. Von Yuuki Guzman und Agoston Tyll, Okinawa Institute of Science and Technology, 2015, mit Erlaubnis. 
+\item
+Übersicht Modul Physik. Meine eigene Arbeit, CC-BY-SA 4.0, 2023. 
 \item
 Vektoren. Meine eigene Arbeit, CC-BY-SA 4.0, 2022.
 \end{itemize}
