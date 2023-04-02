@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="85.848427mm"
+   height="57.910526mm"
+   viewBox="0 0 85.848427 57.910526"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="weber_fechner_log_scale.svg"
+   inkscape:export-filename="weber_fechner_log_scale.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2.0240783"
+     inkscape:cx="260.11839"
+     inkscape:cy="129.19461"
+     inkscape:window-width="1920"
+     inkscape:window-height="1131"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid358"
+       originx="-110.46864"
+       originy="-105.19838" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1758"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-110.46863,-105.19838)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.454817;stroke-dasharray:none"
+       d="m 116.4424,105.5533 -0.0452,51.69594"
+       id="path416" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.448308;stroke-dasharray:none"
+       d="m 196.09838,157.43994 -79.88041,-0.0517"
+       id="path420" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       x="140.98256"
+       y="161.9012"
+       id="text8452"><tspan
+         sodipodi:role="line"
+         id="tspan8450"
+         style="stroke-width:0.2"
+         x="140.98256"
+         y="161.9012">log (Reizintensität)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       x="-132.67281"
+       y="114.34689"
+       id="text9246"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan9244"
+         style="stroke-width:0.2"
+         x="-132.67281"
+         y="114.34689">Empfindungsstärke</tspan></text>
+    <g
+       id="g11456"
+       transform="translate(0.63206813,-2.3132129)">
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+         x="124.57845"
+         y="154.49281"
+         id="text9250"><tspan
+           sodipodi:role="line"
+           id="tspan9248"
+           style="stroke-width:0.2"
+           x="124.57845"
+           y="154.49281">R</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.83982px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.114998;stroke-dasharray:none"
+         x="127.2135"
+         y="155.08546"
+         id="text9254"><tspan
+           sodipodi:role="line"
+           id="tspan9252"
+           style="stroke-width:0.114998"
+           x="127.2135"
+           y="155.08546">0</tspan></text>
+    </g>
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:0.590995;stroke-dasharray:none"
+       id="path6218"
+       cx="121.69557"
+       cy="150.35953"
+       rx="0.70450234"
+       ry="0.70450228" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:0.590995;stroke-dasharray:none"
+       id="ellipse11450"
+       cx="131.89897"
+       cy="139.31924"
+       rx="0.70450234"
+       ry="0.70450228" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:0.590995;stroke-dasharray:none"
+       id="ellipse16823"
+       cx="142.10237"
+       cy="128.27896"
+       rx="0.70450234"
+       ry="0.70450228" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:0.590995;stroke-dasharray:none"
+       id="ellipse16831"
+       cx="152.30577"
+       cy="117.23869"
+       rx="0.70450234"
+       ry="0.70450228" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:0.590995;stroke-dasharray:none"
+       id="ellipse16835"
+       cx="162.50917"
+       cy="106.19838"
+       rx="0.70450234"
+       ry="0.70450228" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.499999"
+       d="m 119.44684,152.74537 44.36282,-47.79219"
+       id="path1760"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
