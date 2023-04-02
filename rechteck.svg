@@ -102,14 +102,14 @@
     <text
        xml:space="preserve"
        style="font-size:4.93889px;font-family:TSCu_Times;-inkscape-font-specification:TSCu_Times;text-align:center;text-anchor:middle;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-       x="98.648972"
+       x="95.473969"
        y="121.67101"
        id="text955"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
-         x="98.648972"
+         x="95.473969"
          y="121.67101"
-         id="tspan4645">100±0.01m</tspan></text>
+         id="tspan4645">1±0.01m</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.9389px;font-family:TSCu_Times;-inkscape-font-specification:TSCu_Times;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
@@ -131,7 +131,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
          x="64.807083"
          y="107.79357"
-         id="tspan10461">200±0.01m</tspan></text>
+         id="tspan10461">2±0.01m</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
        d="m 44.046317,105.48524 8.779068,0.16724 v 0"

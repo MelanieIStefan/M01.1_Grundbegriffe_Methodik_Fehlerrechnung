@@ -387,9 +387,27 @@ Proton                  & \SI{0,000 000 000 000 001 7}{m}& \SI{1,7e-15}{m} \\
 \end{tabular}
 \end{frame} 
 
-\begin{frame}
-\makebox[\linewidth]{\includegraphics[page=20,width=\textwidth]{Walter.pdf}}
+
+\begin{frame}{Dezimale Vielfache und Teile von Einheiten}
+\begin{tabular}{lll}
+Pico                    & p         & \(10^{-12}\) \\
+Nano                    & n         & \(10^{-9}\) \\
+Mikro                   & \(\mu\)   & \(10^{-6}\) \\
+Milli                   & m         & \(10^{-3}\) \\
+\textcolor{gray}{Zenti} & \textcolor{gray}{c}        & \textcolor{gray}{\(10^{-2}\)} \\
+\textcolor{gray}{Dezi}  & \textcolor{gray}{d}       & \textcolor{gray}{\(10^{-1}\)} \\
+\textcolor{gray}{Deka}  & \textcolor{gray}{da}        & \textcolor{gray}{\(10^{1}\)} \\
+\textcolor{gray}{Hekto} & \textcolor{gray}{h}         & \textcolor{gray}{\(10^{2}\)} \\
+Kilo                    & k         & \(10^{3}\) \\
+Mega                    & M         & \(10^{6}\) \\
+Giga                    & G         & \(10^{9}\) \\
+Tera                    & T         & \(10^{12}\) \\
+\end{tabular}
+
+
 \end{frame}
+
+
 
 \begin{frame}
 \frametitle{(Noch bessere) Angaben in Zehnerpotenzen}
@@ -404,10 +422,6 @@ Proton                  & \SI{0,000 000 000 000 001 7}{m}& \SI{1,7}{\femto\meter
 \end{tabular}
 \end{frame} 
 
-
-\begin{frame}
-\makebox[\linewidth]{\includegraphics[page=15,width=\textwidth]{Walter.pdf}}
-\end{frame}
 
 
 %% Giraffe Volumen? 
@@ -777,41 +791,31 @@ Relative Messunsicherheit:
 \end{frame}
 
 
-\begin{frame}
-\makebox[\linewidth]{\includegraphics[page=37,width=\textwidth]{Walter.pdf}}
-\end{frame}
-
-
 
 \begin{frame}
-\frametitle{Fehlerfortpflanzung}
+\frametitle{Fehlerfortpflanzung: Zwei einfache Regeln}
 
 
 \begin{center}
-    \includegraphics[width=0.6\textwidth]{Rechteck.png}
+    \includegraphics[width=0.4\textwidth]{Rechteck.png}
 \end{center}
-
-
-Zwei einfache Regeln: 
 
 \begin{enumerate}
     \item 
 Bei \textbf{Addition} und \textb{Subtraktion} addieren sich die \textbf{absoluten} Messunsicherheiten. Beispiel: Umfang: 
-
 \[
-2\pm 0.01\,m + 1\pm 0.01\,m + 2\pm 0.01\,m + 1\pm 0.01\,m = 6 \pm 0.04\,m
+(2\pm 0.01\,m) + (1\pm 0.01\,m) + (2\pm 0.01\,m) + (1\pm 0.01\,m) = \pause 6 \pm 0.04\,m
 \]
 
 
         \item 
 Bei \textbf{Multiplikation} und \textb{Division} addieren sich die \textbf{relativen} Messunsicherheiten. Beispiel: Flächeninhalt 
-
 \[
-2\pm 0.1\,m \times 1 \pm 0.1\,m =
+(2\pm 0.1\,m) \times (1 \pm 0.1\,m) = \pause (2\,m\pm 0.5\,\%)  \times (1\,m \pm 1\,\%) =
 \]
-
+\pause
 \[
-2\,m\pm 0.5\,\%  \times 1\,m \pm 1\,\% = 2\,m^2 \pm 1,5\,\% = 2\,m^2 \pm 0,03\,m^2
+= 2\,m^2 \pm 1,5\,\% = 2\,m^2 \pm 0,03\,m^2
 \]
 
 
